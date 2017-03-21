@@ -1,0 +1,144 @@
+[
+     {
+         "subtitle": null,
+         "uid": "film_a5e1022dfd874e169fd6da6597d0cd0f",
+         "schedule_urls": [
+           "/api/schedules/sche_e84785a815fb435faa2348393ec4e8b8/"
+         ],
+         "image_urls": [],
+         "publish_on": "2015-03-10T00:00:00+00:00",
+         "talent_urls": [],
+         "schedule_url": "/api/schedules/sche_e84785a815fb435faa2348393ec4e8b8/",
+         "plan_urls": [],
+         "language_publish_on": "2015-03-10T00:00:00+00:00",
+         "episode_number": null,
+         "language_modified_by": null,
+         "slug": "seeing-the-new-year-in-1915",
+         "language_version_url": "/api/episodes/film_a5e1022dfd874e169fd6da6597d0cd0f/language-versions/0/",
+         "version_number": 0,
+         "modified_by": null,
+         "language_ends_on": "2100-01-01T00:00:00+00:00",
+         "title": "Seeing the New Year In",
+         "items": [
+           "/api/assets/asse_7b805a29d4414e9a99eba899e2f384a3/"
+         ],
+         "self": "/api/episodes/film_a5e1022dfd874e169fd6da6597d0cd0f/",
+         "created": "2015-03-11T13:47:11.948000+00:00",
+         "modified": "2015-03-11T13:47:11.948000+00:00",
+         "created_by": null,
+         "tag_urls": [],
+         "ends_on": "2100-01-01T00:00:00+00:00",
+         "synopsis": "",
+         "version_url": "/api/episodes/film_a5e1022dfd874e169fd6da6597d0cd0f/versions/0/",
+         "parent_url": null,
+         "language_version_number": 0,
+         "language_modified": "2015-03-11T13:47:11.948000+00:00"
+     },
+     {
+         "subtitle": null,
+         "uid": "film_f0bc40dc033542afb1cc2413830b7958",
+         "schedule_urls": [
+           "/api/schedules/sche_9b9114fcffbc4b63acfe7ee9421cec40/"
+         ],
+         "image_urls": [],
+         "publish_on": "2015-03-10T00:00:00+00:00",
+         "talent_urls": [],
+         "schedule_url": "/api/schedules/sche_9b9114fcffbc4b63acfe7ee9421cec40/",
+         "plan_urls": [],
+         "language_publish_on": "2015-03-10T00:00:00+00:00",
+         "episode_number": null,
+         "language_modified_by": null,
+         "slug": "little-red-riding-hood-up-to-date-1945",
+         "language_version_url": "/api/episodes/film_f0bc40dc033542afb1cc2413830b7958/language-versions/0/",
+         "version_number": 0,
+         "modified_by": null,
+         "language_ends_on": "2100-01-01T00:00:00+00:00",
+         "title": "Little Red Riding Hood Up-to-date",
+         "items": [
+           "/api/assets/asse_4a59b677a3064805be4f309b1098969a/"
+         ],
+         "self": "/api/episodes/film_f0bc40dc033542afb1cc2413830b7958/",
+         "created": "2015-03-11T13:42:41.523000+00:00",
+         "modified": "2015-03-11T13:42:41.523000+00:00",
+         "created_by": null,
+         "tag_urls": [],
+         "ends_on": "2100-01-01T00:00:00+00:00",
+         "synopsis": "",
+         "version_url": "/api/episodes/film_f0bc40dc033542afb1cc2413830b7958/versions/0/",
+         "parent_url": null,
+         "language_version_number": 0,
+         "language_modified": "2015-03-11T13:42:41.523000+00:00"
+     },
+     {
+         "subtitle": null,
+         "uid": "film_89a3da9518674307aaa952f6364945a6",
+         "schedule_urls": [
+           "/api/schedules/sche_6b1ccb0429ac43a1a991d1926ed9b136/"
+         ],
+         "image_urls": [
+           "/api/images/imag_fcdf67481d8147e6844d838f4112f999/"
+         ],
+         "publish_on": "2014-10-24T00:00:00+00:00",
+         "talent_urls": [],
+         "schedule_url": "/api/schedules/sche_6b1ccb0429ac43a1a991d1926ed9b136/",
+         "plan_urls": [],
+         "language_publish_on": "2014-10-24T00:00:00+00:00",
+         "episode_number": null,
+         "language_modified_by": null,
+         "slug": "on-the-heels-of-the-reds-1927",
+         "language_version_url": "/api/episodes/film_89a3da9518674307aaa952f6364945a6/language-versions/0/",
+         "version_number": 0,
+         "modified_by": null,
+         "language_ends_on": "2100-01-01T00:00:00+00:00",
+         "title": "On the Heels of the 'Reds'  Topical Budget 806-1",
+         "items": [
+           "/api/assets/asse_6fd3a9034f79486e84caaa5d5489b88f/"
+         ],
+         "self": "/api/episodes/film_89a3da9518674307aaa952f6364945a6/",
+         "created": "2014-10-25T14:17:18.058000+00:00",
+         "modified": "2014-10-25T14:17:18.058000+00:00",
+         "created_by": null,
+         "tag_urls": [],
+         "ends_on": "2100-01-01T00:00:00+00:00",
+         "synopsis": "",
+         "version_url": "/api/episodes/film_89a3da9518674307aaa952f6364945a6/versions/0/",
+         "parent_url": null,
+         "language_version_number": 0,
+         "language_modified": "2014-10-25T14:17:18.058000+00:00"
+     },
+     {
+         "subtitle": null,
+         "uid": "film_220067fe34f84bd681b3e8b1bcc2979e",
+         "schedule_urls": [
+           "/api/schedules/sche_ca17b2c342fe47dea77f2f0fe54ca904/"
+         ],
+         "image_urls": [],
+         "publish_on": "2014-10-24T00:00:00+00:00",
+         "talent_urls": [],
+         "schedule_url": "/api/schedules/sche_ca17b2c342fe47dea77f2f0fe54ca904/",
+         "plan_urls": [],
+         "language_publish_on": "2014-10-24T00:00:00+00:00",
+         "episode_number": null,
+         "language_modified_by": null,
+         "slug": "fernando-franco-interview-2013",
+         "language_version_url": "/api/episodes/film_220067fe34f84bd681b3e8b1bcc2979e/language-versions/0/",
+         "version_number": 0,
+         "modified_by": null,
+         "language_ends_on": "2100-01-01T00:00:00+00:00",
+         "title": "Q&A 2",
+         "items": [
+           "/api/assets/asse_33ed01f6f8544d438450d24907633669/"
+         ],
+         "self": "/api/episodes/film_220067fe34f84bd681b3e8b1bcc2979e/",
+         "created": "2014-10-25T13:37:24.832000+00:00",
+         "modified": "2014-10-25T13:37:24.832000+00:00",
+         "created_by": null,
+         "tag_urls": [],
+         "ends_on": "2100-01-01T00:00:00+00:00",
+         "synopsis": "",
+         "version_url": "/api/episodes/film_220067fe34f84bd681b3e8b1bcc2979e/versions/0/",
+         "parent_url": null,
+         "language_version_number": 0,
+         "language_modified": "2014-10-25T13:37:24.832000+00:00"
+     }
+]

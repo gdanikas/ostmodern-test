@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="EpisodeDetailsHeaderView" customModule="Ostmodern" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="220"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3HE-qD-xkC" userLabel="Container View">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="220"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plc-no-image" translatesAutoresizingMaskIntoConstraints="NO" id="2Vn-ce-BJO">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="220"/>
+                            <color key="backgroundColor" red="0.19559437460000001" green="0.20085027820000001" blue="0.2166179892" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgU-7W-JnA" customClass="FavoritesButton" customModule="Ostmodern" customModuleProvider="target">
+                            <rect key="frame" x="341" y="186" width="22" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="cgU-7W-JnA" secondAttribute="height" multiplier="1:1" id="3X2-pd-ycD"/>
+                                <constraint firstAttribute="height" constant="22" id="7eH-wJ-Wy2"/>
+                            </constraints>
+                            <state key="normal" image="ic-favourites"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isFavorite" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-play-video" translatesAutoresizingMaskIntoConstraints="NO" id="sfK-bq-Uiu">
+                            <rect key="frame" x="156" y="78" width="64" height="64"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="sfK-bq-Uiu" secondAttribute="height" multiplier="1:1" id="WFC-cg-fsm"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="cgU-7W-JnA" secondAttribute="trailing" constant="12" id="6Og-4W-ilW"/>
+                        <constraint firstAttribute="bottom" secondItem="cgU-7W-JnA" secondAttribute="bottom" constant="12" id="PHg-Jt-oLC"/>
+                        <constraint firstAttribute="trailing" secondItem="2Vn-ce-BJO" secondAttribute="trailing" id="UG5-U1-t9H"/>
+                        <constraint firstItem="sfK-bq-Uiu" firstAttribute="centerY" secondItem="3HE-qD-xkC" secondAttribute="centerY" id="V6a-58-nSK"/>
+                        <constraint firstAttribute="bottom" secondItem="2Vn-ce-BJO" secondAttribute="bottom" id="bkQ-aM-2nL"/>
+                        <constraint firstItem="sfK-bq-Uiu" firstAttribute="height" secondItem="3HE-qD-xkC" secondAttribute="height" multiplier="64:220" id="dTP-4p-d1t"/>
+                        <constraint firstItem="2Vn-ce-BJO" firstAttribute="leading" secondItem="3HE-qD-xkC" secondAttribute="leading" id="prG-aP-tWY"/>
+                        <constraint firstItem="2Vn-ce-BJO" firstAttribute="top" secondItem="3HE-qD-xkC" secondAttribute="top" id="rYT-F3-dlT"/>
+                        <constraint firstItem="sfK-bq-Uiu" firstAttribute="centerX" secondItem="3HE-qD-xkC" secondAttribute="centerX" id="tO4-Fi-hHv"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="3HE-qD-xkC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="3iZ-xu-iFs"/>
+                <constraint firstAttribute="bottom" secondItem="3HE-qD-xkC" secondAttribute="bottom" id="LeO-e6-8DV"/>
+                <constraint firstItem="3HE-qD-xkC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="eRF-Kl-aIO"/>
+                <constraint firstAttribute="trailing" secondItem="3HE-qD-xkC" secondAttribute="trailing" id="u3z-cC-xJz"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnFavourite" destination="cgU-7W-JnA" id="ONK-rC-bQM"/>
+                <outlet property="imgBackground" destination="2Vn-ce-BJO" id="bpF-AX-50M"/>
+                <outlet property="playVideoImageView" destination="sfK-bq-Uiu" id="Fer-gN-tud"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="55"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic-favourites" width="22" height="22"/>
+        <image name="ic-play-video" width="60" height="60"/>
+        <image name="plc-no-image" width="289" height="192"/>
+    </resources>
+</document>
